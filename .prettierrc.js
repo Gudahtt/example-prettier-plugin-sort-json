@@ -8,5 +8,5 @@ module.exports = {
   endOfLine: 'auto',
   plugins: ['prettier-plugin-sort-json'],
   jsonRecursiveSort: true,
-  jsonSortOrder: 'caseInsensitiveLexical',
+  jsonSortOrder: '{"*": "caseInsensitiveLexical"}',
 };
