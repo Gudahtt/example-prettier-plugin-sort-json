@@ -6,5 +6,7 @@ module.exports = {
   tabWidth: 4,
   useTabs: false,
   endOfLine: 'auto',
-  // plugins: ['prettier-plugin-sort-json'],
+  plugins: ['prettier-plugin-sort-json'],
+  jsonRecursiveSort: true,
+  jsonSortOrder: 'caseInsensitiveLexical',
 };
