@@ -5,6 +5,17 @@ __metadata:
   version: 8
   cacheKey: 10
 
+"@gudahtt/example-prettier-plugin-sort-json@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@gudahtt/example-prettier-plugin-sort-json@workspace:."
+  dependencies:
+    "@lavamoat/allow-scripts": "npm:^3.3.0"
+    "@lavamoat/preinstall-always-fail": "npm:^2.1.0"
+    prettier: "npm:^3.4.1"
+    prettier-plugin-sort-json: "npm:^4.0.0"
+  languageName: unknown
+  linkType: soft
+
 "@isaacs/cliui@npm:^8.0.2":
   version: 8.0.2
   resolution: "@isaacs/cliui@npm:8.0.2"
@@ -370,17 +381,6 @@ __metadata:
   checksum: 10/9d7169e3965b2f9ae46971afa392f6e5a25545ea30f2e2dd99c9b0a95a3f52b5653681a84f5b2911a413ddad2d7a93d3514165072f349b5ffc59c75a899970d6
   languageName: node
   linkType: hard
-
-"example-project@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "example-project@workspace:."
-  dependencies:
-    "@lavamoat/allow-scripts": "npm:^3.3.0"
-    "@lavamoat/preinstall-always-fail": "npm:^2.1.0"
-    prettier: "npm:^3.4.1"
-    prettier-plugin-sort-json: "npm:^4.0.0"
-  languageName: unknown
-  linkType: soft
 
 "exponential-backoff@npm:^3.1.1":
   version: 3.1.1
