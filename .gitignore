@@ -1,0 +1,36 @@
+/node_modules
+
+# Yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Build files
+*.js
+*.d.ts
+*.map
+*.tgz
+/dist/
+/build/
+
+# Configuration files
+!.eslintrc.js
+!ava.config.js
+!.prettierrc.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Jest
+coverage
+
+# ESLint
+.eslintcache
